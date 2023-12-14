@@ -1,13 +1,7 @@
 module tb (a);
-
-
-
  
-
-inout tri [1:0] a ;
-
-
-
+ inout tri [1:0] a ;
+ 
 endmodule
 
 module dut (c,d);

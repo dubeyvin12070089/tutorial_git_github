@@ -7,6 +7,7 @@ shell_cmd:
 	echo "hello"
 all: hello shell_cmd
 
+
 hey: hello shell_cmd
 	echo $@
 	echo $?
